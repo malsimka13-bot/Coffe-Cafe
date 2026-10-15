@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- SEO-метатеги -->
+  <title>Калорийность и КБЖУ меню Aroma Craft — таблица и калькулятор</title>
+  <meta name="description" content="Пищевая ценность всех позиций кофейни Aroma Craft: калории, белки, жиры и углеводы. Отметьте блюда и посчитайте КБЖУ своего заказа.">
+  <meta name="keywords" content="калорийность кофе, кбжу меню, калории капучино, калькулятор калорий">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="http://u993784c.beget.tech/nutrition.html">
+
+  <!-- Open Graph (превью в соцсетях и мессенджерах) -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Калорийность и КБЖУ меню Aroma Craft — таблица и калькулятор">
+  <meta property="og:description" content="Пищевая ценность всех позиций кофейни Aroma Craft: калории, белки, жиры и углеводы. Отметьте блюда и посчитайте КБЖУ своего заказа.">
+  <meta property="og:url" content="http://u993784c.beget.tech/nutrition.html">
+  <meta property="og:locale" content="ru_RU">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Шапка сайта (одинаковая на всех страницах) -->
+  <header class="header">
+    <div class="container header-container">
+      <a href="index.html" class="logo">Aroma<span>Craft</span></a>
+      <button class="burger" type="button" aria-label="Открыть меню" aria-expanded="false">☰</button>
+      <nav class="nav" aria-label="Основное меню">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="index.html" class="nav-link">Главная</a></li>
+          <li class="nav-item"><a href="menu.html" class="nav-link">Меню</a></li>
+          <li class="nav-item"><a href="nutrition.html" class="nav-link nav-link--active">Калорийность</a></li>
+          <li class="nav-item"><a href="atmosphere.html" class="nav-link">Атмосфера</a></li>
+          <li class="nav-item"><a href="contacts.html" class="nav-link">Контакты</a></li>
+          <li class="nav-item"><a href="booking.html" class="nav-link nav-btn">Бронь столика</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <nav class="breadcrumbs" aria-label="Хлебные крошки"><a href="index.html">Главная</a> / <span>Пищевая ценность</span></nav>
+        <h1 class="page-title">Пищевая ценность</h1>
+        <p class="page-subtitle">Точная информация о калорийности и балансе нутриентов (КБЖУ)</p>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container">
+        <div class="calc-box" aria-live="polite">
+          <h2 class="calc-title">Калькулятор заказа</h2>
+          <p class="calc-hint">Отметьте позиции в таблице, и мы посчитаем сумму КБЖУ.</p>
+          <dl class="calc-grid">
+            <div><dt>Калории</dt><dd><span id="sum-kcal">0</span> ккал</dd></div>
+            <div><dt>Белки</dt><dd><span id="sum-p">0.0</span> г</dd></div>
+            <div><dt>Жиры</dt><dd><span id="sum-f">0.0</span> г</dd></div>
+            <div><dt>Углеводы</dt><dd><span id="sum-c">0.0</span> г</dd></div>
+          </dl>
+        </div>
+
+        <div class="table-responsive">
+          <table class="nutrition-table">
+            <caption class="visually-hidden">Пищевая ценность позиций меню Aroma Craft</caption>
+            <thead>
+              <tr>
+                <th scope="col">Наименование</th>
+                <th scope="col">Порция</th>
+                <th scope="col">Калории (ккал)</th>
+                <th scope="col">Белки (г)</th>
+                <th scope="col">Жиры (г)</th>
+                <th scope="col">Углеводы (г)</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><label class="check-label"><input type="checkbox" class="calc-check" data-kcal="185" data-p="7.0" data-f="6.5" data-c="24.5"> Капучино с миндалём</label></td>
+                <td>300 мл</td>
+                <td>185</td>
+                <td>7.0</td>
+                <td>6.5</td>
+                <td>24.5</td>
+              </tr>
+              <tr>
+                <td><label class="check-label"><input type="checkbox" class="calc-check" data-kcal="420" data-p="8.5" data-f="24.0" data-c="43.0"> Круассан с франжипаном</label></td>
+                <td>130 г</td>
+                <td>420</td>
+                <td>8.5</td>
+                <td>24.0</td>
+                <td>43.0</td>
+              </tr>
+              <tr>
+                <td><label class="check-label"><input type="checkbox" class="calc-check" data-kcal="310" data-p="4.8" data-f="17.0" data-c="34.0"> Раф «Пряный апельсин»</label></td>
+                <td>350 мл</td>
+                <td>310</td>
+                <td>4.8</td>
+                <td>17.0</td>
+                <td>34.0</td>
+              </tr>
+              <tr>
+                <td><label class="check-label"><input type="checkbox" class="calc-check" data-kcal="5" data-p="0.3" data-f="0.1" data-c="0.6"> Фильтр Эфиопия Иргачефф</label></td>
+                <td>250 мл</td>
+                <td>5</td>
+                <td>0.3</td>
+                <td>0.1</td>
+                <td>0.6</td>
+              </tr>
+              <tr>
+                <td><label class="check-label"><input type="checkbox" class="calc-check" data-kcal="115" data-p="6.4" data-f="5.8" data-c="9.0"> Флэт Уайт</label></td>
+                <td>200 мл</td>
+                <td>115</td>
+                <td>6.4</td>
+                <td>5.8</td>
+                <td>9.0</td>
+              </tr>
+              <tr>
+                <td><label class="check-label"><input type="checkbox" class="calc-check" data-kcal="140" data-p="2.1" data-f="7.8" data-c="15.2"> Матча Латте на кокосовом</label></td>
+                <td>300 мл</td>
+                <td>140</td>
+                <td>2.1</td>
+                <td>7.8</td>
+                <td>15.2</td>
+              </tr>
+              <tr>
+                <td><label class="check-label"><input type="checkbox" class="calc-check" data-kcal="160" data-p="1.5" data-f="0.2" data-c="38.0"> Бамбл Айс-Кофе</label></td>
+                <td>350 мл</td>
+                <td>160</td>
+                <td>1.5</td>
+                <td>0.2</td>
+                <td>38.0</td>
+              </tr>
+              <tr>
+                <td><label class="check-label"><input type="checkbox" class="calc-check" data-kcal="490" data-p="14.2" data-f="32.0" data-c="36.5"> Бриошь с авокадо и пашот</label></td>
+                <td>220 г</td>
+                <td>490</td>
+                <td>14.2</td>
+                <td>32.0</td>
+                <td>36.5</td>
+              </tr>
+              <tr>
+                <td><label class="check-label"><input type="checkbox" class="calc-check" data-kcal="450" data-p="7.6" data-f="31.5" data-c="34.0"> Чизкейк Сан-Себастьян</label></td>
+                <td>160 г</td>
+                <td>450</td>
+                <td>7.6</td>
+                <td>31.5</td>
+                <td>34.0</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="note">Значения ориентировочные и приведены для учебного проекта.</p>
+      </div>
+    </section>
+  </main>
+
+  <!-- Подвал сайта (одинаковый на всех страницах) -->
+  <footer class="footer">
+    <div class="container footer-container">
+     <div class="footer-col">
+  <h3 class="footer-title">Aroma Craft</h3>
+  <p>Качественный спешелти кофе и домашняя атмосфера каждый день.</p>
+</div>
+      <div class="footer-col">
+        <h3 class="footer-title">Разделы</h3>
+        <p><a href="menu.html">Меню</a></p>
+        <p><a href="nutrition.html">Калорийность</a></p>
+        <p><a href="atmosphere.html">Атмосфера</a></p>
+        <p><a href="booking.html">Бронь столика</a></p>
+      </div>
+      <div class="footer-col">
+        <h3 class="footer-title">Контакты</h3>
+        <p>Адрес: ул. Кофейная, 15</p>
+        <p>Телефон: <a href="tel:+79991234567">+7 (999) 123-45-67</a></p>
+        <p>Почта: <a href="mailto:hello@aromacraft.ru">hello@aromacraft.ru</a></p>
+      </div>
+      <div class="footer-col">
+        <h3 class="footer-title">График работы</h3>
+        <p>Пн — Пт: 08:00 – 22:00</p>
+        <p>Сб — Вс: 09:00 – 23:00</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <p>&copy; 2026 Aroma Craft Coffee. Учебный проект, организация вымышленная.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: http://u993784c.beget.tech/cafe/sitemap.xml
